@@ -25,3 +25,11 @@ window.onscroll = () => {
         }
     })
 }
+
+const typingText = Typify('#typify-text', {
+    text: ['Web Developer', 'Mobile Developer'],
+    delay: 100,
+    loop: true,
+    cursor: true,
+    stringDelay: 1000 
+  });

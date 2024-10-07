@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="real.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
 
-        <i class="fa-solid fa-bars"  id="menu-icon"></i>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -32,7 +32,8 @@
         <div class="home-content">
             <h3>Hi, I'm</h3>
             <h1>Bello Sulaimon</h1>
-            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <h3>And I'm a <span id="typify-text">
+                </span></h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti exercitationem, a possimus,
                 perspiciatis omnis fugit maiores autem illo assumenda eligendi perferendis laborum eaque? Vero assumenda
                 dolore, reprehenderit quaerat natus commodi!</p>
@@ -53,7 +54,7 @@
     <section class="about" id="about">
         <div class="abt-img">
             <img src="sula.jpeg" alt="" style="border-radius: 50px;">
-        </div> 
+        </div>
 
         <div class="about-content">
             <h2 class="heading">ABOUT <span>Me</span></h2>
@@ -67,7 +68,7 @@
 
     <!-- service section -->
     <section class="service" id="service">
-        <h2 class="heading">My <span>Services</span></h2>
+        <h2 class="heading" style="margin-bottom: 1cm;">My <span>Services</span></h2>
 
         <div class="services-container">
             <div class="services-box">
@@ -124,7 +125,8 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="https://profiletree.com/wp-content/uploads/2023/12/Java-Game-Development-3-min-1024x683.webp" alt="">
+                <img src="https://profiletree.com/wp-content/uploads/2023/12/Java-Game-Development-3-min-1024x683.webp"
+                    alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -151,7 +153,8 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="https://www.coventry.ac.uk/globalassets/media/global/00-new-course-imagery/engineering-environment-and-computing/pg/cyber_security_msc.jpg" alt="">
+                <img src="https://www.coventry.ac.uk/globalassets/media/global/00-new-course-imagery/engineering-environment-and-computing/pg/cyber_security_msc.jpg"
+                    alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -189,7 +192,8 @@
             <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
-    <script src="real.js"></script>
+    <script src="https://unpkg.com/typify.js@1.1.9/dist/typify.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
